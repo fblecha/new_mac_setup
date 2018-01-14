@@ -1,0 +1,12 @@
+#!/bin/sh
+brew update
+brew upgrade
+
+#yarn upgrade
+npm install -g yarn
+
+#update app store stuff
+mas outdated
+echo "run mas upgrade ##### if you want to upgrade specific apps"
+
+
